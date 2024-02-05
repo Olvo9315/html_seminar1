@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.menu:hover {
+    color: blueviolet;
+}
+
+.title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+li::marker {
+    content: "+ ";
+    font-size: 1.2em;
+}
+
+.para {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.img {
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 4px 8px rgba(188, 143, 143, 0.418);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+p::selection {
+    color: rgba(241, 3, 3, 0.801);
+    background-color: rgba(255, 255, 0, 0.575);
+}
+
+/* p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: brown;
+} */
